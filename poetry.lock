@@ -395,6 +395,23 @@ files = [
 ]
 
 [[package]]
+name = "graphviz"
+version = "0.20.1"
+description = "Simple Python interface for Graphviz"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "graphviz-0.20.1-py3-none-any.whl", hash = "sha256:587c58a223b51611c0cf461132da386edd896a029524ca61a1462b880bf97977"},
+    {file = "graphviz-0.20.1.zip", hash = "sha256:8c58f14adaa3b947daf26c19bc1e98c4e0702cdc31cf99153e6f06904d492bf8"},
+]
+
+[package.extras]
+dev = ["flake8", "pep8-naming", "tox (>=3)", "twine", "wheel"]
+docs = ["sphinx (>=5)", "sphinx-autodoc-typehints", "sphinx-rtd-theme"]
+test = ["coverage", "mock (>=4)", "pytest (>=7)", "pytest-cov", "pytest-mock (>=3)"]
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -1961,4 +1978,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4525f11be2c27ba1e4b71bdcf2d981b079ff4e3b871a49550bb5e097f2054ed2"
+content-hash = "d5ec265b5e3407365a7b2dcc4919f55ad481e3b7f27d87da91236af47156a6ed"
